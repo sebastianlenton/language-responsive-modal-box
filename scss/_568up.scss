@@ -1,0 +1,89 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: 
+
+******************************************************************/
+
+/*********************
+GENERAL STYLES
+*********************/
+
+
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+
+
+/*********************
+TYPE
+*********************/
+body {
+	font-size: 18px;
+}
+
+
+/*********************
+HEADER STYLES
+*********************/
+
+
+	
+/*********************
+LOGO STYLES
+*********************/
+
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+
+	
+/*********************
+TRANSITIONS
+*********************/
+
+
+/*********************
+MODAL
+*********************/
+
+.modal {
+	max-height:420px;
+	
+	width:$modalWidth + 23%;
+	height:$modalHeight + 23%;
+	margin: 0 auto;
+	position:relative;
+	top:( 100% - ( $modalHeight + 20% ) ) / 2;
+	padding:0;
+	@include box-shadow( 0, 0.2em, 80px, rgba(0,0,0,0.5) );
+	
+	.vertPosition {
+		height: 70%;
+		position: absolute;
+		top: 10%;
+		padding:0 2em;
+	}
+	
+	.buttonPosition {
+		padding-bottom:2em;
+	}
+}
