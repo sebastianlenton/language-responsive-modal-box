@@ -79,7 +79,7 @@
 	        		Download Via GitHub
 	        	</h3>
 	        	<p>
-					The code for this is available right here, via GitHub.
+					The code for this is available <a href="https://github.com/sebastianlenton/language-responsive-modal-box">right here</a>, via GitHub.
 				</p>
 	        </aside>
 			<aside class="right column">
