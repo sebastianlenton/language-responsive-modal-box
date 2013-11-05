@@ -102,6 +102,8 @@ function upgrade() {
 //speech processing
 function processSpeech( transcript, wordsMap ) {
 
+	//console.log( transcript );
+
 	//thanks to Joseph Lenton for help with this regex and some other bits
 	//split the transcript into an array
 	transcript.replace( /[.,; \t\n]+/g, ' ' );
